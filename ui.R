@@ -12,7 +12,7 @@ shinyUI(fluidPage(
                                 choices = NULL,
                                 selected = NULL),   
                     
-                    helpText("Select two variables to create a scatterplot for all states.
+                    helpText("Select two variables to create a scatterplot for all U.S. states.
                              Hover over a plot to view the values.")
                ),
                
@@ -28,7 +28,7 @@ shinyUI(fluidPage(
                                              "mean" = "mean"),
                                 selected = "mean"),   
                     
-                    helpText("Select a variable and a calculation to determine the value across all states.")
+                    helpText("Select a variable and a calculation to determine the value across all U.S. states.")
                ),
                
                conditionalPanel(
@@ -38,7 +38,7 @@ shinyUI(fluidPage(
                                 choices = NULL,
                                 selected = NULL),   
                     
-                    helpText("Select a variable to map all states. Hover over a state to view its value.")
+                    helpText("Select a variable to map all U.S. states. Hover over a state to view its value.")
                )
                
           ),
